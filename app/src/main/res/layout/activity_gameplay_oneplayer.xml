@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/dark_blue_texture"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="376dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tuvspc"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <GridLayout
+        android:layout_width="318dp"
+        android:layout_height="318dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="175dp"
+        android:background="@android:color/white"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/gridLayout">
+
+        <ImageView
+            android:id="@+id/a1"
+            style="@style/casilla"
+            android:contentDescription="@string/es_una_casilla" />
+
+        <ImageView
+            android:id="@+id/a2"
+            style="@style/casilla"
+            android:contentDescription="@string/es_una_casilla" />
+
+        <ImageView
+            android:id="@+id/a3"
+            style="@style/casilla"
+            android:contentDescription="@string/es_una_casilla" />
+
+        <ImageView
+            android:id="@+id/b1"
+            style="@style/casilla"
+            android:contentDescription="@string/es_una_casilla" />
+
+        <ImageView
+            android:id="@+id/b2"
+            style="@style/casilla"
+            android:contentDescription="@string/es_una_casilla" />
+
+        <ImageView
+            android:id="@+id/b3"
+            style="@style/casilla"
+            android:contentDescription="@string/es_una_casilla" />
+
+        <ImageView
+            android:id="@+id/c1"
+            style="@style/casilla"
+            android:contentDescription="@string/es_una_casilla" />
+
+        <ImageView
+            android:id="@+id/c2"
+            style="@style/casilla"
+            android:contentDescription="@string/es_una_casilla" />
+
+        <ImageView
+            android:id="@+id/c3"
+            style="@style/casilla"
+            android:contentDescription="@string/es_una_casilla" />
+
+
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/maquina_puntos"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:srcCompat="@drawable/cero"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/jugador_puntos"
+        android:layout_width="39dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:srcCompat="@drawable/cero"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="153dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/tuganas"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/continuar"
+        android:clickable="true"
+        android:onClick="cleanTable"
+        android:layout_width="252dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/continuar"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteY="497dp"
+        tools:layout_editor_absoluteX="17dp" />
+</android.support.constraint.ConstraintLayout>
