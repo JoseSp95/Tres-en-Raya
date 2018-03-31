@@ -5,6 +5,10 @@ El juego permite enfrentarse a la computadora y posee 3 niveles
 2. Medio
 3. Difícil
 
+<img src="https://raw.githubusercontent.com/JoseSp95/Tres-en-Raya/master/img1.png" 
+    alt="Drawing" style="width: 250px;margin= auto 0;"/>
+
+
 ![img1](https://raw.githubusercontent.com/JoseSp95/Tres-en-Raya/master/img1.png)
 ![img2](https://raw.githubusercontent.com/JoseSp95/Tres-en-Raya/master/img2.png)
 ![img3](https://raw.githubusercontent.com/JoseSp95/Tres-en-Raya/master/img3.png)
